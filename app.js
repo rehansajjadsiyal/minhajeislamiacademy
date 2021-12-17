@@ -1,11 +1,17 @@
 const express = require('express');
+const path = require('path')
 const app = express();
 
-app.get('/', (req, res) => {
-  console.log('Hello world received a request.');
 
-  const target = process.env.TARGET || 'World';
-  res.send(`Hello ${target}!\n`);
+
+
+app.set('views', path.join(__dirname, 'views'))
+app.set('view engine', 'ejs')
+
+app.get('/', (req, res) => {
+  //console.log('Hello world received a request.');
+    //const target = process.env.TARGET || 'World';
+  res.render('home');
 });
 
 const port = process.env.PORT || 8080;
