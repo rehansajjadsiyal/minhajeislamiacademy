@@ -4,8 +4,8 @@ const app = express();
 const expressLayouts=require('express-ejs-layouts')
 
 app.use(express.static('public'))
-//app.use('/css',express.static(__dirname+ 'public/css'))
-//app.use('/js',express.static(__dirname+ 'public/js'))
+app.use('/ccss',express.static(__dirname+ 'public/css'))
+app.use('/cjs',express.static(__dirname+ 'public/js'))
 
 
 app.use('/css',express.static(path.join(__dirname+'node_modules/bootstrap/dist/css')))
