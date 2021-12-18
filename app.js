@@ -1,10 +1,18 @@
 const express = require('express');
 const path = require('path')
 const app = express();
+const expressLayouts=require('express-ejs-layouts')
+
+app.use(express.static('public'))
+//app.use('/css',express.static(__dirname+ 'public/css'))
+//app.use('/js',express.static(__dirname+ 'public/js'))
 
 
-
-
+app.use('/css',express.static(path.join(__dirname+'node_modules/bootstrap/dist/css')))
+app.use('/js',express.static(path.join(__dirname+'node_modules/bootstrap/dist/js')))
+app.use('/jq',express.static(path.join(__dirname+'node_modules/jquery/dist')))
+app.use(expressLayouts)
+app.set('layout','./layouts/full-width')
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
