@@ -1,5 +1,5 @@
 .navbar-custom{
-    background-color: black;
+    background-color: darkgreen;
 }
 .navbar-custom .navbar-nav .nav-link {
     color: white;
@@ -7,6 +7,13 @@
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: white;
+}
+.navbar-custom li:hover{
+border-bottom: 3px solid white;
+}
+a .navbar-brand:hover{
+    border-bottom: none !important;
+    text-decoration: none;
 }
 /*remove box arround toggler button*/
 .navbar-toggler:focus,
