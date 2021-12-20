@@ -1,8 +1,26 @@
+/*for mobile first*/
+@media only screen and (max-width: 600px) {
+    .navbar-custom .navbar-nav .nav-link {
+        color: white;
+        margin-left: 20%;
+    }
+  }
+  /* end Mobile First*/
+
+
+
 .navbar-custom{
     background-color: darkgreen;
 }
 .navbar-custom .navbar-nav .nav-link {
     color: white;
+}
+.navbar-brand{
+    margin-left: 10%;
+    padding-right: 10px;
+}
+.navbar-nav .ml-auto{
+margin-right: 10%;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
