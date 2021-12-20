@@ -10,21 +10,23 @@
 
 
 .navbar-custom{
-    background-color: darkgreen;
+    background-color: white;
 }
 .navbar-custom .navbar-nav .nav-link {
-    color: white;
+    color: rgb(00, 00, 77);
+    font-weight:bolder
 }
 .navbar-brand{
     margin-left: 10%;
     padding-right: 10px;
+    font-weight: bolder;
 }
 .navbar-nav .ml-auto{
 margin-right: 10%;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: white;
+    color: rgb(00, 00, 77);
 }
 .navbar-custom li:hover{
 border-bottom: 3px solid white;
@@ -77,7 +79,7 @@ a .navbar-brand:hover{
     }
 
     .animated-icon3 span {
-        background: #f3e5f5;
+        background:black;
         }
 
 
