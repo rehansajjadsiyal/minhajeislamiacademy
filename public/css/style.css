@@ -140,3 +140,19 @@ a .navbar-brand:hover{
     }    
   }
 /* Portrait and Landscape */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .animated-icon3 {
+        margin-left: 300px;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin-left: 645px;
+    }    
+}
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
