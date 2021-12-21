@@ -2,13 +2,16 @@
 @media only screen and (max-width: 600px) {
     .navbar-custom .navbar-nav .nav-link {
         color: white;
-        margin-left: 20%;
+        margin-left: 30%;
     }
   }
+ 
   /* end Mobile First*/
 
 
-
+.top-nav{
+    background-color: rgb(0,51,8);
+}
 .navbar-custom{
     background-color: white;
 }
@@ -16,14 +19,7 @@
     color: rgb(00, 00, 77);
     font-weight:bolder
 }
-.navbar-brand{
-    margin-left: 10%;
-    padding-right: 10px;
-    font-weight: bolder;
-}
-.navbar-nav .ml-auto{
-margin-right: 10%;
-}
+
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgb(00, 00, 77);
@@ -45,10 +41,11 @@ a .navbar-brand:hover{
 
 /*animated icon*/
 .animated-icon3 {
+    margin-left: 300px;
     width: 30px;
     height: 20px;
     position: relative;
-    margin: 0px;
+    margin-left: 170px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -79,7 +76,7 @@ a .navbar-brand:hover{
     }
 
     .animated-icon3 span {
-        background:black;
+        background:rgb(00, 00, 77);
         }
 
 
